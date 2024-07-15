@@ -60,20 +60,39 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- What is the project - he project is a demonstration website that showcases various static and animated header and footer designs using pure HTML, CSS, and JavaScript.
+- Whats the purpose - The purpose of the project is to provide a comprehensive guide on how to create engaging and dynamic header and footer sections for websites.
+- What are Key Components -  Static Header Styles: Multiple predefined static header styles with distinct designs.
+ Static Footer Styles: Multiple predefined static footer styles with distinct designs.
+Animated Header Styles: Multiple animated header styles with various animations for dynamic effects.
+Animated Footer Styles: Multiple animated footer styles with various animations for dynamic effects.
+Navigation Buttons: Simple navigation buttons in the header for smooth scrolling between sections of the page
+Background Image: Capability to add a background image to headers for enhanced visual appeal.
+What technology used and how it is used
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
-
+Multi-Page Website/Single Page Website
+Parallax Transition
+Transactional
 ### Technology
 <!-- TODO: List of Technology Used -->
+HTML:
+
+Structure of the website.
+Headers, footers, main content areas, and navigation buttons.
+CSS:
+
+Styling for static and animated header and footer designs.
+Responsive design to ensure the site looks good on various devices.
+Animations for headers and footers to create dynamic visual effects.
+JavaScript:
+
+Applying different styles dynamically.
+Smooth scrolling functionality for navigation buttons.
+Handling events like button clicks to navigate to different sections.
+
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
@@ -90,7 +109,7 @@ Guiding Question:
 7. File Structure to follow below.
 
 ```
-WD-ProjectName
+WD-Seatwork3
 └─ assets
 |   └─ css
 |   |   └─ style.css
