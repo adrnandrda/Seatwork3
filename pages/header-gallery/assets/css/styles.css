@@ -1,1 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
+main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+header, footer {
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav button {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav button:hover {
+    background-color: #2980b9;
+}
+
+/* Static Header Styles */
+.header-style-1 {
+    background-color: #3498db;
+}
+
+.header-style-2 {
+    background: linear-gradient(45deg, #ff6b6b, #f06595);
+}
+
+.header-style-3 {
+    background-color: #2ecc71;
+}
+
+.header-style-4 {
+    background-color: #f39c12;
+}
+
+.header-style-5 {
+    background-color: #599cb6;
+}
+
+/* New Static Header Style */
+.header-style-6 {
+    background-color: #1abc9c;
+    background-image: url('header-bg.jpg'); /* Example background image */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Static Footer Styles */
+.footer-style-1 {
+    background-color: #2c3e50;
+}
+
+.footer-style-2 {
+    background: linear-gradient(45deg, #16a085, #1abc9c);
+}
+
+.footer-style-3 {
+    background-color: #c0392b;
+}
+
+.footer-style-4 {
+    background-color: #e67e22;
+}
+
+.footer-style-5 {
+    background-color: #2980b9;
+}
+
+/* Animated Header Styles */
+@keyframes slideIn {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}
+
+.header-animated-1 {
+    animation: slideIn 1s forwards;
+    background-color: #44a1ad;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.header-animated-2 {
+    animation: fadeIn 1s forwards;
+    background-color: #d35400;
+}
+
+@keyframes scaleUp {
+    from { transform: scale(0); }
+    to { transform: scale(1); }
+}
+
+.header-animated-3 {
+    animation: scaleUp 1s forwards;
+    background-color: #34495e;
+}
+
+@keyframes bounceIn {
+    from { transform: translateY(-100%); }
+    to { transform: translateY(0); }
+}
+
+.header-animated-4 {
+    animation: bounceIn 1s forwards;
+    background-color: #27ae60;
+}
+
+@keyframes rotateIn {
+    from { transform: rotate(-360deg); }
+    to { transform: rotate(0); }
+}
+
+.header-animated-5 {
+    animation: rotateIn 1s forwards;
+    background-color: #2980b9;
+}
+
+/* Animated Footer Styles */
+@keyframes slideUp {
+    from { transform: translateY(100%); }
+    to { transform: translateY(0); }
+}
+
+.footer-animated-1 {
+    animation: slideUp 1s forwards;
+    background-color: #449dad;
+}
+
+@keyframes fadeInFooter {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.footer-animated-2 {
+    animation: fadeInFooter 1s forwards;
+    background-color: #d35400;
+}
+
+@keyframes scaleUpFooter {
+    from { transform: scale(0); }
+    to { transform: scale(1); }
+}
+
+.footer-animated-3 {
+    animation: scaleUpFooter 1s forwards;
+    background-color: #34495e;
+}
+
+@keyframes bounceInFooter {
+    from { transform: translateY(100%); }
+    to { transform: translateY(0); }
+}
+
+.footer-animated-4 {
+    animation: bounceInFooter 1s forwards;
+    background-color: #27ae60;
+}
+
+@keyframes rotateInFooter {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
+}
+
+.footer-animated-5 {
+    animation: rotateInFooter 1s forwards;
+    background-color: #2980b9;
+}
