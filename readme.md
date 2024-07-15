@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  This project is a demonstration website showcasing various static and animated header and footer designs using HTML, CSS, and JavaScript. It aims to provide inspiration and practical examples for web developers to enhance the visual appeal and user experience of their websites.
 </div>
 
 <br />
