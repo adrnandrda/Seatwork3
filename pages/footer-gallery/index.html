@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header and Footer Styles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header"> <!-- Default header, replaced dynamically with JS for different styles -->
+        <h1>Header and Footer</h1>
+        <nav>
+            <button onclick="navigateTo('section1')">Section 1</button>
+            <button onclick="navigateTo('section2')">Section 2</button>
+        </nav>
+    </header>
 
+    <main>
+        <section id="section1">
+            <h2>Welcome to my Website</h2>
+            <h2>Seatwork 3</h2>
+            <p>This website uses only HTML and CSS to display different header and footer designs.</p>
+        </section>
+        <section id="section2">
+            <h2>Another Section</h2>
+            <p>This is another section to demonstrate navigation buttons. You can add more content here.</p>
+        </section>
+    </main>
+
+    <footer id="footer"> <!-- Default footer, replaced dynamically with JS for different styles -->
+        <p>&copy; 2024 Your Website. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Link to the JavaScript file -->
+</body>
+</html>
