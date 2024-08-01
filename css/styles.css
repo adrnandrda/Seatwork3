@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://wallpapers.com/images/featured/anime-landscape-background-12xkkc2cnstc3gp2.jpg');
+    background-size: cover;
+    background-position: center;}
+
+/* Header 1 Styles */
+.header1 {
+    background-color: #33022f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.header1.animated {
+    animation: fadeInDown 1s ease-in-out;
+}
+
+/* Header 2 Styles */
+.header2 {
+    background-color: #9b3e4a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.header2.animated {
+    animation: slideInLeft 1s ease-in-out;
+}
+
+/* Header 3 Styles */
+.header3 {
+    background-color: #3eaecf;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.header3.animated {
+    animation: bounceIn 1s ease-in-out;
+}
+
+/* Footer 1 Styles */
+.footer1 {
+    background-color: #33022f;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer1.animated {
+    animation: fadeInUp 1s ease-in-out;
+}
+
+/* Footer 2 Styles */
+.footer2 {
+    background-color: #9b3e4a;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer2.animated {
+    animation: slideInUp 1s ease-in-out;
+}
+
+/* Footer 3 Styles */
+.footer3 {
+    background-color: #3eaecf;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer3.animated {
+    animation: bounceIn 1s ease-in-out;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    80% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInUp {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
